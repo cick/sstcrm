@@ -22,3 +22,4 @@ UI框架：Element-UI 2.6.3
 值得注意的一点是：跨域的情况下，会有预请求OPTION的情况
 ## 系统介绍
 
+数据库备份放在database_bak
