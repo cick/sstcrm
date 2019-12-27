@@ -82,17 +82,33 @@
             type="primary"
             class="handel-button"
             @click="enterSystemSet()"
-            style="margin-top: 8px;">
+            style="margin-top: 10px;margin-bottom: 4px;font-size: 14px;">
             进入企业管理后台</el-button>
 
         </div>
+
+
+<div class="hr-top"  ></div>
+        <el-tooltip content="Version 版本 V9.3.2.191220.002" placement="left"     >
+          <el-button style="border:white  " >
+
+
         <div
-                :style="{'margin-bottom': admin ? '15px' : '0'}"
-                class="handel-item hr-top"
-                style="pointer-events: none;"><i class="wukong wukong-versions" />版本 V9.3.2.191220</div>
+                :style="{'margin-bottom': admin ? '1px' : '0'}"
+                class="handel-item   "
+                style="pointer-events: none; margin-left: -23px;">
+
+
+          <i class="wukong wukong-versions"  style="  margin-left:12px"/>版本 V9.3.2.191220
+
+
+
+        </div>
+          </el-button>
+        </el-tooltip>
 
         <div   class="handel-item  handel-item hr-top"    @click="handleClick('goout')"  >
-          <el-button type="primary"   style="margin-left:-7px;"  size="mini" round ><i class="wukong wukong-goout"  style="margin-left:-5px;" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;退&nbsp;&nbsp;&nbsp;&nbsp;出&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></el-button>
+          <el-button type="primary"   style="margin-left:-7px;margin-top: 8px;"  size="mini" round ><i class="wukong wukong-goout"  style="margin-left:-5px;" > &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;退&nbsp;&nbsp;&nbsp;&nbsp;出&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</i></el-button>
         </div>
 
 
@@ -397,7 +413,7 @@ export default {
   padding: 30px 20px;
   .title {
     font-size: 16px;
-    font-weight: 600px;
+    font-weight:600px;
   }
   .detail {
     transform: scale(0.9);
